@@ -1,0 +1,24 @@
+.formatstyle {
+  text-align: center;
+  font-size: large;
+}
+
+.Name {
+  font-weight: 300;
+  color: blue;
+}
+
+.School {
+  font-weight: 300;
+  color: crimson;
+}
+
+.Total {
+  font-weight: 300;
+  color: darkmagenta;
+}
+
+.Score {
+  font-weight: 300;
+  color: forestgreen;
+}
