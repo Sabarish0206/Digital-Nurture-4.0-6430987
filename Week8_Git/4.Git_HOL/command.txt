@@ -1,0 +1,35 @@
+1.git checkout master
+  git status
+
+2.git checkout -b GitWork
+echo "<msg>Hello from branch</msg>" > hello.xml
+git add hello.xml
+git commit -m "Add hello.xml in GitWork"
+
+3.git checkout master
+echo "<msg>Hello from master</msg>" > hello.xml
+git add hello.xml
+git commit -m "Add hello.xml in master"
+
+4.git log --oneline --graph --decorate --all
+
+5.git diff master GitWork
+
+6.git difftool master GitWork
+
+7.git merge GitWork
+
+8.git mergetool
+
+9.git add hello.xml
+git commit -m "Resolved merge conflict"
+
+10.echo "*.orig" >> .gitignore
+git add .gitignore
+git commit -m "Added .gitignore"
+
+11.git branch -d GitWork
+
+12.git log --oneline --graph --decorate
+
+
