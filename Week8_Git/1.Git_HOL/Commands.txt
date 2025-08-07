@@ -6,4 +6,31 @@
 
 4.git config --global --list
 
-3.notepad++
+5.alias np='notepad++'
+
+6.git config --global core.editor "notepad++"
+
+7.git config --global -e
+
+8.mkdir GitDemo
+  cd GitDemo
+  git init
+
+9.echo "Welcome to Git Hands-On" > welcome.txt
+  cat welcome.txt
+
+10.git status
+
+11.git add welcome.txt
+
+12.git commit
+
+13.git remote add origin https://gitlab.com/sabarish-group/gitDemo.git
+
+14.git pull origin master
+
+15.git push -u origin master
+
+
+
+
