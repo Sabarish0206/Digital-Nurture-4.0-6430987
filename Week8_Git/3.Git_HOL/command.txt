@@ -1,0 +1,31 @@
+1. git checkout -b GitNewBranch
+
+2.git branch
+
+3.git branch -r
+
+4.git branch -a
+
+5.echo "Sample file content" > sample.txt
+  git add sample.txt
+
+6.git commit -m "Added sample.txt in GitNewBranch"
+
+7.git status
+
+
+Merge:
+
+8.git checkout master
+
+9.git diff master GitNewBranch
+
+10.git difftool master GitNewBranch
+
+11.git merge GitNewBranch
+
+12.git log --oneline --graph --decorate
+
+13.git branch -d GitNewBranch
+   git status
+
